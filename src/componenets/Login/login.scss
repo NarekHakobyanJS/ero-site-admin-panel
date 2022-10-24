@@ -1,0 +1,93 @@
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  .cover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    align-items: center;
+    width: 500px;
+    background: #121212;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+  
+    .logo{
+      width: 180px;
+      height: 78px;
+      border-radius: 10px;
+      margin-bottom: 81px;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+    input[type=text],input[type=password]{
+      width: 100%;
+      max-width: 400px;
+      height: 75px;
+      margin-bottom: 30px;
+      text-indent: 64px;
+      border: 1px solid #969696;
+      box-sizing: border-box;
+      border-radius: 10px;
+      outline: none;
+      overflow: hidden;
+      box-shadow: none;
+      background-color: transparent !important;
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      color: #969696;
+      background-repeat: no-repeat;
+      background-position: 14px center;
+    }
+    button{
+      display: flex;
+      width: 100%;
+      max-width: 400px;
+      justify-content: center;
+      align-items: center;
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      text-transform: capitalize;
+      color: #FFFFFF;
+      cursor: pointer;
+      background: #FF9800;
+      border-radius: 10px;
+      border:none;
+      overflow: hidden;
+      outline: none;
+      height: 75px;
+      
+    }
+    .forgotPassword{
+      width: 400px;
+      text-align: right;
+      font-family: Assistant,sans-serif;
+      font-weight: normal;
+      font-size: 20px;
+      color: #969696;
+      margin-bottom: 60px;
+    }
+  }
+}

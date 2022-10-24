@@ -1,0 +1,32 @@
+.nav-bar-btn{
+    width: 260px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 30px 23px 30px 19px;
+    cursor: pointer;
+    transition: .2s all linear;
+    a{
+        text-decoration: none;
+        div{
+            display: flex;
+            align-items: center;
+            p{
+                color : #ffffff;
+                font-family: 'Assistant';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 26px;
+                text-align: center;
+                transform: translate(30%, -29%);
+            }
+            img{
+                transform: translate(42%, -49%);
+                margin-right: 14px;
+            }
+        }
+    }
+    &:hover{
+        background: #FF9800;
+    }
+}

@@ -1,0 +1,52 @@
+.category-open{
+    width: 1496px;
+    margin-top: 0;
+    height: 602px;
+    padding: 0 50px;
+    background: rgba(18, 18, 18, 0.3);
+    transform: translateY(-12%);
+    .category-form{
+        h5{
+            font-family: Assistant;
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 33px;
+            letter-spacing: 0em;
+            text-align: left;
+            color : #c4c4c4;
+            transform: translateY(41%);
+        }
+        .input-category{
+            width: 100%;
+            background: transparent;
+            border : none;
+            border-bottom: 1px solid #969696;
+            padding: 17px 0;
+        }
+    }
+    button{
+        width: 134px;
+        height: 40px;
+        background: #FF9800;
+        border-radius: 10px;
+        float: right;
+        color :#ffffff;
+        margin-top: 50px;
+        font-family: Assistant;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+}
+
+
+/* media max-width 768-x */
+@media (max-width : 768px) {
+    .category-open{
+        width: 636px;
+        height: 678px;
+    }
+}

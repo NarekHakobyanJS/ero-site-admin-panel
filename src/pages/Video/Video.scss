@@ -1,0 +1,15 @@
+.video{
+    max-width: 1614px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*media 768 px */ 
+
+@media (max-width : 768px) {
+    .video{
+        flex-wrap: wrap;
+    }
+}
+
